@@ -1,3 +1,113 @@
+.gods-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.god-button.btn-iop {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+.god-button.btn-cra {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.god-button.btn-ecaflip {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+}
+
+.god-button.btn-sacrieur {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.god-button.btn-eniripsa {
+  background-color: #e6d8bf;
+  border-color: #a5392a;
+}
+
+.god-button.btn-sadida {
+  background-color: #8b4513;
+  border-color: #8b4513;
+}
+
+.god-button.btn-sram {
+  background-color: #c0c0c0;
+  border-color: #c0c0c0;
+}
+
+.god-button.btn-xelor {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.god-button.btn-enutrof {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.god-button.btn-feca {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.god-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #1e90ff;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-iop {
+  border: 2px solid #ff8c00;
+}
+
+.card-cra {
+  border: 2px solid #28a745;
+}
+
+.card-ecaflip {
+  border: 2px solid #ff69b4;
+}
+
+.card-sacrieur {
+  border: 2px solid #dc3545;
+}
+
+.card-eniripsa {
+  border: 2px solid #e6d8bf;
+}
+
+.card-sadida {
+  border: 2px solid #8b4513;
+}
+
+.card-sram {
+  border: 2px solid #c0c0c0;
+}
+
+.card-xelor {
+  border: 2px solid #007bff;
+}
+
+.card-enutrof {
+  border: 2px solid #ffc107;
+}
+
+.card-feca {
+  border: 2px solid #ffc107;
+}
+.card- {
+  border: 2px solid black;
+}
+
 .App {
   text-align: center;
 }
