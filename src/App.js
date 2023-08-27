@@ -325,7 +325,7 @@ function App() {
     <div className="container">
       <h1 className="text-center">Krosmaga Deck Builder</h1>
 
-      <div className="gods-container">
+      <div className="">
         {Object.values(Gods).map((god) => (
           <button
             key={god}
@@ -338,11 +338,11 @@ function App() {
       </div>
 
       {activeGod && (
-        <div className="god-details">
+        <div className=" container">
           <h2>{activeGod}</h2>
-          <div>
+          <div class="row">
             {cards.map((card, index) => (
-              <div key={index} className={` card-${card.god ? card.god.toLowerCase() : ''}`}>
+              <div key={index} className={`col-12 col-sm-4 col-lg-3  card-${card.god.toLowerCase()} `}>
 
                 <h3>{card.name}</h3>
                 <p>{card.description}</p>
